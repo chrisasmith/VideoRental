@@ -1,5 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using VideoRental.Models;
+using Microsoft.EntityFrameworkCore;
 
 [assembly: OwinStartupAttribute(typeof(VideoRental.Startup))]
 namespace VideoRental
